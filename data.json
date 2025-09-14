@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Basketball",
+    "price": 100,
+    "tags": ["sports", "indoor"],
+    "category": "sports",
+    "productReviews": [
+      {
+        "id": 1,
+        "review": "Great product",
+        "rating": 5,
+        "reviewer": "John Doe",
+        "reviewDate": "2023-10-01"
+      },
+      {
+        "id": 2,
+        "review": "Good value for money",
+        "rating": 4,
+        "reviewer": "Jane Smith",
+        "reviewDate": "2023-10-05"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Football",
+    "price": 150,
+    "tags": ["sports", "outdoor"],
+    "category": "sports",
+    "productReviews": [
+      {
+        "id": 1,
+        "review": "Excellent quality",
+        "rating": 5,
+        "reviewer": "Alice Johnson",
+        "reviewDate": "2023-09-15"
+      },
+      {
+        "id": 2,
+        "review": "Very durable",
+        "rating": 4,
+        "reviewer": "Bob Brown",
+        "reviewDate": "2023-09-20"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Tennis Racket",
+    "price": 200,
+    "tags": ["sports", "outdoor"],
+    "category": "sports",
+    "productReviews": [
+      {
+        "id": 1,
+        "review": "Lightweight and easy to handle",
+        "rating": 5,
+        "reviewer": "Charlie Davis",
+        "reviewDate": "2023-08-10"
+      },
+      {
+        "id": 2,
+        "review": "Good for beginners",
+        "rating": 4,
+        "reviewer": "Diana Evans",
+        "reviewDate": "2023-08-15"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Running Shoes",
+    "price": 120,
+    "tags": ["sports", "footwear"],
+    "category": "sports",
+    "productReviews": [
+      {
+        "id": 1,
+        "review": "Very comfortable",
+        "rating": 5,
+        "reviewer": "Ethan Foster",
+        "reviewDate": "2023-07-05"
+      },
+      {
+        "id": 2,
+        "review": "Good support for long runs",
+        "rating": 4,
+        "reviewer": "Fiona Green",
+        "reviewDate": "2023-07-10"
+      }
+    ]
+  }
+]
