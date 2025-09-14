@@ -12,7 +12,13 @@ const getAllProducts = (req, res) => {
 
 const getProductById = (req, res) => {
     const productId = req.params.id;
-    res.send(`Details of product with ID: ${productId}`);
+    const result = data.find(product => product.id == productId);
+    if(!result) {
+        return res.status(404).send({message: 'Product not found'});
+    } else {
+        res.status(200).send(result);
+    }
+    
 }
 
 module.exports = {getAllProducts, getProductById};

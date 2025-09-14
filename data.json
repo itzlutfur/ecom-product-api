@@ -97,5 +97,28 @@
         "reviewDate": "2023-07-10"
       }
     ]
+  },
+  {
+    "id": 5,
+    "name": "Yoga Mat",
+    "price": 80,
+    "tags": ["fitness", "indoor"],
+    "category": "fitness",
+    "productReviews": [
+      {
+        "id": 1,
+        "review": "Non-slip and comfortable",
+        "rating": 5,
+        "reviewer": "George Harris",
+        "reviewDate": "2023-06-20"
+      },
+      {
+        "id": 2,
+        "review": "Good thickness",
+        "rating": 4,
+        "reviewer": "Hannah Irving",
+        "reviewDate": "2023-06-25"
+      }
+    ]
   }
 ]
