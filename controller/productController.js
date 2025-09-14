@@ -1,16 +1,13 @@
+const data = require('../data.json');
 
-
-/* 
-simple product api
-
-GET/products - list all products - total product review count
-GET/products/:id - get a single product details by id
-
-
-*/
 
 const getAllProducts = (req, res) => {
-    res.status(200).send("List of all products");
+    const productList = data.map(product => {
+        const {id, name, price, category} = product;
+        const totalReviews = product.productReviews.length;
+        return {id, name, price, category, totalReviews};
+    });
+    res.status(200).send(productList);
 }
 
 const getProductById = (req, res) => {
