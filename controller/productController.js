@@ -10,7 +10,7 @@ GET/products/:id - get a single product details by id
 */
 
 const getAllProducts = (req, res) => {
-    res.send('List of all products');
+    res.status(200).send("List of all products");
 }
 
 const getProductById = (req, res) => {
@@ -18,3 +18,4 @@ const getProductById = (req, res) => {
     res.send(`Details of product with ID: ${productId}`);
 }
 
+module.exports = {getAllProducts, getProductById};
